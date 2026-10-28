@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O'yinlar Kutubxonasi | CYBERPULSE ARENA</title>
+  <meta name="description" content="CYBERPULSE kompyuterlarida o'rnatilgan eng sara o'yinlar katalogi: CS2, Dota 2, Valorant, Cyberpunk 2077, GTA V, FC24 va boshqalar. Tezkor qidiruv va janrlar bo'yicha filter.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;800&family=Orbitron:wght@600;700;800;900&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon-svg">
+          <svg class="svg-icon" viewBox="0 0 24 24" style="stroke: #07090e; stroke-width: 2.5;">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <span>CYBER<span class="logo-highlight">PULSE</span></span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Bosh sahifa</a>
+        <a href="hardware.html" class="nav-link">Texnika</a>
+        <a href="prices.html" class="nav-link">Tariflar</a>
+        <a href="tournaments.html" class="nav-link">Turnirlar</a>
+        <a href="games.html" class="nav-link active">O'yinlar</a>
+        <a href="contact.html" class="nav-link">Aloqa</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="index.html#booking" class="btn btn-primary btn-sm">Band qilish</a>
+        <button class="burger-btn" aria-label="Menyuni ochish" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== ASOSIY QISM ==================== -->
+  <main class="main-content">
+    
+    <!-- Sarlavha -->
+    <section class="section" style="padding-bottom: 24px;">
+      <div class="container text-center reveal-on-scroll">
+        <span class="section-badge">O'rnatilgan dasturlar va o'yinlar</span>
+        <h1 class="section-title">ENG SARA O'YINLAR <span class="text-gradient">KUTUBXONASI</span></h1>
+        <p class="section-desc">
+          150 dan ortiq o'yinlar Samsung 990 Pro o'ta tezkor SSD xotiralarida o'rnatilgan va yangilangan. Keling va yuklanishlarni kutmasdan darhol o'ynang!
+        </p>
+
+        <!-- Qidiruv paneli -->
+        <div class="games-search-bar" style="margin-top: 36px;">
+          <svg class="svg-icon search-icon-inside icon-sm" viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="gameSearchInput" 
+            class="games-search-input" 
+            placeholder="O'yin nomi bo'yicha qidirish (CS2, Dota, Cyberpunk)..."
+            autocomplete="off"
+          >
+        </div>
+
+        <!-- Janrlar bo'yicha filterlar -->
+        <div class="filter-tabs">
+          <button type="button" class="filter-btn genre-filter-btn active" data-genre="all">Barcha o'yinlar</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="shooter">Otishmalar / FPS</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="moba">MOBA</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="battleroyale">Battle Royale</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="rpg">RPG & Ochiq olam</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="sports">Sport & Jangari</button>
+          <button type="button" class="filter-btn genre-filter-btn" data-genre="racing">Poyga / Sim</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- O'yinlar setkasi -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        
+        <div class="games-grid">
+          
+          <!-- O'yin 1 -->
+          <div class="game-card reveal-on-scroll" data-genre="shooter" data-title="Counter-Strike 2 CS2 Valve FPS otishma">
+            <div class="game-thumb">
+              <span class="game-monogram">CS2</span>
+              <span class="game-genre-badge">FPS / Otishma</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Counter-Strike 2</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Sayyoramizning asosiy musobaqa otishmasi. Sozlangan reytlar va professional konfiglar.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 360+ Ultra</span>
+                <span class="text-cyan">Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 2 -->
+          <div class="game-card reveal-on-scroll" data-genre="moba" data-title="Dota 2 Dota2 Valve MOBA jang">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(168, 85, 247, 0.2) 0%, #0d121c 90%); color: var(--neon-purple);">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(168, 85, 247, 0.6);">DOTA 2</span>
+              <span class="game-genre-badge" style="color: var(--neon-purple); border-color: rgba(168, 85, 247, 0.4);">MOBA</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Dota 2</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Qadimgilar uchun afsonaviy jang. Stokgolm va Vena serverlariga 1 ms ping.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 280+ High</span>
+                <span class="text-cyan">Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 3 -->
+          <div class="game-card reveal-on-scroll" data-genre="shooter" data-title="Valorant Riot Games FPS taktik otishma">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(255, 51, 102, 0.2) 0%, #0d121c 90%); color: var(--neon-red);">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(255, 51, 102, 0.6);">VALORANT</span>
+              <span class="game-genre-badge" style="color: var(--neon-red); border-color: rgba(255, 51, 102, 0.4);">Taktik FPS</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Valorant</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Riot Games kompaniyasining taktik otishmasi. Reflex va 360Hz texnologiyasi.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 400+ Max</span>
+                <span class="text-cyan">Riot Client</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 4 -->
+          <div class="game-card reveal-on-scroll" data-genre="battleroyale" data-title="Apex Legends Battle Royale Respawn EA">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(245, 158, 11, 0.2) 0%, #0d121c 90%); color: #f59e0b;">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(245, 158, 11, 0.6);">APEX</span>
+              <span class="game-genre-badge" style="color: #f59e0b; border-color: rgba(245, 158, 11, 0.4);">Battle Royale</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Apex Legends</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Qahramonlar va tezkor harakatlarga boy qirollik jangi.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 240+ Lock</span>
+                <span class="text-cyan">EA App / Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 5 -->
+          <div class="game-card reveal-on-scroll" data-genre="battleroyale" data-title="PUBG: Battlegrounds Battle Royale Krafton">
+            <div class="game-thumb">
+              <span class="game-monogram">PUBG</span>
+              <span class="game-genre-badge">Battle Royale</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">PUBG: BATTLEGROUNDS</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                100 kishi o'rtasidagi omon qolish klassikasi. Uzoq masofalarni aniq ko'rish.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 200+ Ultra</span>
+                <span class="text-cyan">Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 6 -->
+          <div class="game-card reveal-on-scroll" data-genre="rpg" data-title="Cyberpunk 2077 Phantom Liberty CD Projekt Red RPG">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(250, 204, 21, 0.2) 0%, #0d121c 90%); color: #facc15;">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(250, 204, 21, 0.6);">2077</span>
+              <span class="game-genre-badge" style="color: #facc15; border-color: rgba(250, 204, 21, 0.4);">Ray Tracing Ultra</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Cyberpunk 2077</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Phantom Liberty to'liq nurlar kuzatuvi (Overdrive Mode) bilan RTX 4090 da.
+              </p>
+              <div class="game-stats">
+                <span>DLSS 3.5 Frame Gen</span>
+                <span class="text-cyan">GOG / Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 7 -->
+          <div class="game-card reveal-on-scroll" data-genre="rpg" data-title="Grand Theft Auto V GTA 5 RP RageMP Rockstar open world">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(0, 255, 136, 0.2) 0%, #0d121c 90%); color: var(--neon-lime);">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(0, 255, 136, 0.6);">GTA V</span>
+              <span class="game-genre-badge" style="color: var(--neon-lime); border-color: rgba(0, 255, 136, 0.4);">Open World / RP</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">GTA V & Majestic RP</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                RageMP va Majestic RP lancherlari barcha kesh fayllari bilan sozlangan.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 140+ shaharda</span>
+                <span class="text-cyan">RageMP / Rockstar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 8 -->
+          <div class="game-card reveal-on-scroll" data-genre="sports" data-title="EA Sports FC 24 FIFA 24 Futbol Sport Simulyator">
+            <div class="game-thumb">
+              <span class="game-monogram">FC 24</span>
+              <span class="game-genre-badge">Sport / Simulyator</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">EA SPORTS FC 24</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Yangi avlod futbol simulyatori. PK va PS5 platformalarida mavjud.
+              </p>
+              <div class="game-stats">
+                <span>4K 120Hz / DualSense</span>
+                <span class="text-cyan">EA / PS5</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 9 -->
+          <div class="game-card reveal-on-scroll" data-genre="sports" data-title="Mortal Kombat 1 MK1 Fayting Jangari NetherRealm">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(255, 51, 102, 0.2) 0%, #0d121c 90%); color: var(--neon-red);">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(255, 51, 102, 0.6);">MK 1</span>
+              <span class="game-genre-badge" style="color: var(--neon-red); border-color: rgba(255, 51, 102, 0.4);">Jangari / Fayting</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Mortal Kombat 1</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                MK olamining yangi davri. Turnir geympadlari bilan o'ynash imkoni.
+              </p>
+              <div class="game-stats">
+                <span>Locked 60 FPS</span>
+                <span class="text-cyan">Steam / PS5</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 10 -->
+          <div class="game-card reveal-on-scroll" data-genre="racing" data-title="Forza Horizon 5 FH5 Poyga Avto Simulyator Playground">
+            <div class="game-thumb" style="color: var(--neon-cyan);">
+              <span class="game-monogram">FH 5</span>
+              <span class="game-genre-badge">Poyga / Sim</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Forza Horizon 5</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Meksikaning ochiq olami, ajoyib grafika va yuzlab batafsil avtomobillar.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 165+ Extreme 2K</span>
+                <span class="text-cyan">Xbox / Steam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 11 -->
+          <div class="game-card reveal-on-scroll" data-genre="shooter" data-title="Call of Duty Warzone COD WZ Activision FPS otishma">
+            <div class="game-thumb">
+              <span class="game-monogram">COD:WZ</span>
+              <span class="game-genre-badge">Otishma / Warzone</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Call of Duty: Warzone</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Katta xaritalarda yuqori kadrlar tezligida qizg'in janglar.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 180+ High</span>
+                <span class="text-cyan">Battle.net</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- O'yin 12 -->
+          <div class="game-card reveal-on-scroll" data-genre="rpg" data-title="Rust Facepunch Survival Omon qolish PvP multiplayer">
+            <div class="game-thumb" style="background: radial-gradient(circle at 50% 40%, rgba(249, 115, 22, 0.2) 0%, #0d121c 90%); color: #f97316;">
+              <span class="game-monogram" style="text-shadow: 0 0 20px rgba(249, 115, 22, 0.6);">RUST</span>
+              <span class="game-genre-badge" style="color: #f97316; border-color: rgba(249, 115, 22, 0.4);">Survival / PvP</span>
+            </div>
+            <div class="game-card-body">
+              <h3 class="game-title">Rust</h3>
+              <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px;">
+                Shafqatsiz omon qolish simulyatori. BootCamp dagi 64GB DDR5 tufayli qotmasdan ishlaydi.
+              </p>
+              <div class="game-stats">
+                <span>FPS: 140+ Max</span>
+                <span class="text-cyan">Steam</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Natija topilmagan holat -->
+        <div id="noGamesFound" style="display: none; text-align: center; padding: 60px 20px;">
+          <div style="margin-bottom: 16px; color: var(--neon-cyan);">
+            <svg class="svg-icon icon-lg" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </div>
+          <h3 style="font-family: var(--font-display); font-size: 1.4rem;">Katalogda o'yin topilmadi</h3>
+          <p style="color: var(--text-secondary); margin-top: 6px;">
+            Xavotir olmang! Bizning gigabit internetimiz uni bir necha daqiqada PK ga yuklab beradi.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Tezkor o'rnatish eslatmasi -->
+    <section class="section" style="padding-top: 20px;">
+      <div class="container text-center reveal-on-scroll">
+        <div class="glass-card" style="padding: 40px; border-color: var(--neon-cyan);">
+          <span class="cyber-badge" style="margin-bottom: 12px;">YUKLASH TEZLIGI 1 GBIT/S</span>
+          <h3 style="font-family: var(--font-display); font-size: 1.8rem; margin-bottom: 14px;">
+            RO'YXATDA SEVIMLI O'YININGIZNI TOPA OLMADINGIZMI?
+          </h3>
+          <p style="color: var(--text-secondary); max-width: 680px; margin: 0 auto 24px; font-size: 1rem;">
+            Joy band qilishda izoh qoldiring — har qanday hajmdagi o'yin (hatto 150+ GB) siz kelguningizcha oldindan o'rnatib qo'yiladi!
+          </p>
+          <a href="index.html#booking" class="btn btn-primary">
+            <span>PK ni band qilish va o'rnatishga buyurtma berish</span>
+            <svg class="svg-icon icon-sm" viewBox="0 0 24 24" style="stroke: #07090e;">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon-svg">
+              <svg class="svg-icon" viewBox="0 0 24 24" style="stroke: #07090e; stroke-width: 2.5;">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <span>CYBER<span class="logo-highlight">PULSE</span></span>
+          </a>
+          <p>
+            Yangi avlod premium kiber-sport klubi. Eng so'nggi texnika, murosasiz FPS va turnir atmosferasi.
+          </p>
+          <div class="system-status">
+            <span class="pulse-dot-wrapper">
+              <span class="pulse-dot"></span>
+              <span class="pulse-sonar"></span>
+            </span>
+            <span>Klub 24/7 ochiq • Sizni kutamiz</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Bo'limlar</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Bosh sahifa</a></li>
+            <li><a href="hardware.html">Qurilmalar va PK</a></li>
+            <li><a href="prices.html">Tariflar va narxlar</a></li>
+            <li><a href="tournaments.html">Turnirlar va jadval</a></li>
+            <li><a href="games.html">O'yinlar kutubxonasi</a></li>
+            <li><a href="contact.html">Aloqa va manzil</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>O'yin zonalari</h4>
+          <ul class="footer-links">
+            <li><a href="hardware.html#standard">Standard Zone (280Hz)</a></li>
+            <li><a href="hardware.html#vip">VIP Pro Zone (360Hz)</a></li>
+            <li><a href="hardware.html#bootcamp">BootCamp 5v5 Xona</a></li>
+            <li><a href="hardware.html#console">Console PS5 Lounge</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Manzil</h4>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px;">
+            Toshkent sh., Kiber-sport shoh ko'chasi, 42<br>
+            (Texnopark metro bekati, 3 daqiqalik yo'l)
+          </p>
+          <p style="color: var(--neon-cyan); font-family: var(--font-mono); font-size: 0.95rem; margin-bottom: 16px;">
+            +998 (71) 200-44-22
+          </p>
+          <div class="socials-row">
+            <a href="https://t.me" target="_blank" class="social-btn" title="Telegram">TG</a>
+            <a href="https://instagram.com" target="_blank" class="social-btn" title="Instagram">IG</a>
+            <a href="https://discord.com" target="_blank" class="social-btn" title="Discord">DC</a>
+            <a href="https://youtube.com" target="_blank" class="social-btn" title="YouTube">YT</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span class="current-year">2026</span> CYBERPULSE ARENA. Barcha huquqlar himoyalangan.</div>
+        <div style="color: var(--text-muted); font-size: 0.8rem;">Pure Semantic HTML5 / Modern CSS3 / Vanilla JS</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/filters.js"></script>
+</body>
+</html>
